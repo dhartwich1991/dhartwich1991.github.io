@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Daniel Hartwich Portfolio</title>
+    <link>http://example.org/post/</link>
+    <description>Recent content in Posts on Daniel Hartwich Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Mar 2021 14:40:08 +0200</lastBuildDate><atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Awesome second article</title>
+      <link>http://example.org/post/my-second-post/</link>
+      <pubDate>Tue, 30 Mar 2021 14:40:08 +0200</pubDate>
+      
+      <guid>http://example.org/post/my-second-post/</guid>
+      <description>Within any page, you can add in the FrontMatter a images array that will be used to define a specific Open Graph image.
+For example, see content/_index.md page:
+images: [&amp;#34;/images/sample.jpg&amp;#34;] </description>
+    </item>
+    
+    <item>
+      <title>Awesome first article</title>
+      <link>http://example.org/post/my-first-post/</link>
+      <pubDate>Tue, 30 Mar 2021 14:32:17 +0200</pubDate>
+      
+      <guid>http://example.org/post/my-first-post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

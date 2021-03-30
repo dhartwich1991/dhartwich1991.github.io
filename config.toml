@@ -2,3 +2,91 @@ baseURL = "https://dhartwich1991.github.io/"
 languageCode = "en-us"
 title = "Daniel Hartwich Portfolio"
 theme = "personal-web"
+enableEmoji=true
+enableRobotsTXT=true
+pygmentsUseClasses=true
+pygmentsCodeFences=true
+copyright="© Daniel Hartwich 2021"
+
+[params.intro]
+  main = "Hi, I'm Daniel :wave:"
+  sub = "I'm an Android Developer and Skateboarder"
+
+[params.main]
+  latestPublishHeader = "This site is currently under construction! Tune back in later!"
+
+[taxonomies]
+  design = "designs"
+  tech = "techs"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  breadcrumb = true
+  accentColor = "#FD3519"
+
+[params.sidebar]
+  backgroundImage = '' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
+  gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
+  logo = "/images/profile.png"
+
+[params.social]
+  github = "https://github.com/dhartwich1991"
+  twitter = "https://twitter.com/KiLLyA_"
+  linkedin = "https://www.linkedin.com/in/"
+  medium = "https://medium.com/"
+  instagram = "https://www.instagram.com/"
+
+[params.sections]
+  # Define how your sections will be called
+  # when automatically pulled. For instance in the 404 page
+  post = "article"
+  portfolio = "project"
+
+[params.assets]
+  favicon = ""
+  customCSS = ""
+
+[params.contact]
+  email = "hartwich.daniel@gmail.com"
+  text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
+
+[menu]
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  title = "About section"
+  url = "/about/"
+  weight = -120
+
+[[menu.main]]
+  identifier = "portfolio"
+  name = "Portfolio"
+  title = "Portfolio"
+  url = "/portfolio/"
+  weight = -110
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Posts"
+  title = "Blog section"
+  url = "/post/"
+  weight = -100
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
